@@ -44,6 +44,8 @@ body, html {
 
 .logo{
   margin-left: 5%;  
+  margin-top: 0.34%;
+  vertical-align:middle;
 }
 
 .search {
@@ -60,8 +62,8 @@ form.search input[type=text] {
 }
 
 form.search img {
-  width: 16px;
-  height: 16px;   
+  width: 19px;
+  height: 20px;   
 }
 
 form.search button:hover {

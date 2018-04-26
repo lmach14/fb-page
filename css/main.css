@@ -62,8 +62,9 @@ form.search input[type=text] {
 }
 
 form.search img {
+  margin-top: 3px;
   width: 19px;
-  height: 20px;   
+  height: 17px;   
 }
 
 form.search button:hover {
@@ -86,9 +87,9 @@ form.search button:hover {
 }
 
 .left-fix{
-	width: 13%;
-  height: 100%;
-	position: fixed;
+  width: 13%;
+    height: 100%;
+  position: fixed;
 }
 
 .left-fix p{
@@ -134,7 +135,7 @@ form.search button:hover {
 }
 
 .middle h1{
-	margin: 0;
+  margin: 0;
 }
 
 .right-page {
@@ -146,7 +147,46 @@ form.search button:hover {
   border-collapse: collapse;
 }
 
+.right-fix{
+  width: 13%;
+    height: 100%;
+  position: fixed;
+  margin-left: 7%;
+  border-left: 1px solid rgba(0, 0, 0, .4); */
+}
+
+.right-fix p{
+  vertical-align:middle; 
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+  padding-left: 5%;
+  font-size: 14px; 
+  border-radius: 0px;
+}
+
+.right-fix img{
+  width: 32px;
+  height: 32px;
+}
+
+.right-page img {
+  vertical-align:middle;
+}
+
+.right-page p:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 .circle {
     border-radius: 50%;
+}
+.online {
+  float: right;
+  width: 6px !important;
+  height: 6px !important;
+  padding-right: 9%;
+  margin-top: 6%;
 }
 

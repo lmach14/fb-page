@@ -178,14 +178,15 @@ body, html {
 .search {
   float: left;
   margin-top: 8px;
+
 }
 
 form.search input[type=text] {
-    padding: 2px;
-    font-size: 15px;
-    width: 393px;
-    float: left;
-    background: #f1f1f1;
+  padding: 2px;
+  font-size: 15px;
+  width: 393px;
+  float: left;
+  background: #f1f1f1;
 }
 
 form.search img {
@@ -201,19 +202,19 @@ form.search button:hover {
 
 
 .right-fix input[type=text] {
+  margin-top: 95%;
   float: left;
   padding: 11px;
-  margin-top: 1px;
-  width: 110px;
+  width: 70%;
   height: 1px;
   font-size: 12px;
   border: none;
 }
 
 .right-fix button {
+  margin-top: 95%;
   float: left;
   padding: 5px 10px;
-  margin-top: 1px;
   background: #ddd;
   font-size: 12px;
   border: none;
@@ -224,29 +225,104 @@ form.search button:hover {
   background: #ccc;
 }
 
-
-
-
-
-
 .middle-page {
-    width: 65%;
-    height: 100%;
-    float: left;
-    margin-top: 40px;
-    background-color: white;
-    border-collapse: collapse;
+  width: 65%;
+  height: 100%;
+  float: left;
+  margin-top: 40px;
+	padding-top: 12px;
+  background-color: #e9ebee;
+  border-collapse: collapse;
 }
 
 .middle {
-    width: 96%;
-    height: 100%;
-    margin: 0 auto;
-    margin-top: 0;
-    background-color: red;
-    border-collapse: collapse;
+  width: 61%;
+  height: 100%;
+  float: left;
+  margin-top: 0;
+  background-color: red;
+  border-collapse: collapse;
+}
+
+.com {
+  width: 39%;
+  height: 100%;
+  margin-top: 0;
+	float: left;
+  background-color: #e9ebee;
+  border-collapse: collapse;
+}
+.com div{
+  margin-bottom: 5%;
+	
+}
+
+.story{
+  width: 308px;
+  height: 267px;
+	padding-top: 1px;
+	margin: 0 auto;
+	margin-top: 0;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+.sub img {
+  vertical-align: middle;  
+  width: 56px !important;
+  height: 56px !important;   
+}
+
+.story-fix{
+  margin-left: 8%;
+  margin-top: 1%;
+	
+}
+
+.story-fix img{
+  vertical-align: middle; 
+  width: 18px;
+  height: 18px; 	
+}
+
+.sub p:first-child:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.more:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.time{
+  margin: 0;
+  font-size: 10px;
+  margin-left: 60px; 
+  margin-top: -35px; 
 }
 
 .middle h1{
   margin: 0;
+}
+
+
+
+.comercial{
+  width: 308px;
+  height: 230px;
+	padding-top: 1px;
+	margin: 0 auto;
+	margin-top: 0;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+.comercial p{
+	margin: 0;
+  padding: 5px;
+}
+
+.comerc {
+  padding-left: 12px;
 }

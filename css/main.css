@@ -202,7 +202,8 @@ form.search button:hover {
 
 
 .right-fix input[type=text] {
-  margin-top: 95%;
+  margin-top: -14%;
+  margin-left: 32px;
   float: left;
   padding: 11px;
   width: 70%;
@@ -212,7 +213,7 @@ form.search button:hover {
 }
 
 .right-fix button {
-  margin-top: 95%;
+  margin-top: 3%;
   float: left;
   padding: 5px 10px;
   background: #ddd;

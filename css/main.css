@@ -145,8 +145,6 @@ body, html {
   margin-top: 8%;
 }
 
-
-
 .header .search-container {
   float: left;
   
@@ -199,7 +197,6 @@ form.search button:hover {
   background-color: #ddd;
   color: black;
 }
-
 
 .right-fix input[type=text] {
   margin-top: -14%;
@@ -334,6 +331,11 @@ form.search button:hover {
   border: 0.5px solid #dddfe2;
 }
 
+.news-img {
+  vertical-align:middle;
+  padding-right: 3px;
+}
+
 .list {
   width: 533px;
   height: 16px;
@@ -398,8 +400,87 @@ form.search button:hover {
 .file p {
   margin-left: 5px;
   margin: 0;
-  color: #4b4f56;
-  float: left;
   font-size: 13px;
+  float: left;
+  color: #4b4f56;
 }
+
+.posts ul {
+  padding: 0;
+  list-style-type: none; 
+}
+
+.posts li {
+  height: auto;
+  padding: 13px 13px 6px 13px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.top {
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.top img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
+}
+
+.top p {
+  margin: 0;
+  font-size: 16px;
+  color: #365899;
+}
+
+.hr {
+  font-size: 10px !important;
+  color: gray !important;  
+}
+
+.content img {
+  width: 505px;
+  margin-bottom: 5px;
+  border:1px solid #e9ebee;
+}
+
+.bottom {
+  font-size: 14px;
+  color: gray;
+}
+
+.bottom p {
+  margin: 0;
+}
+
+.about {
+  height: 20px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e9ebee;
+}
+
+.like {
+  float: left;
+}
+
+.view {
+  float: right;
+}
+
+.lcsh {
+  height: 20px;
+  margin-top: 5px;
+}
+
+.lcsh div {
+  float: left;
+  width: 155px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
 
